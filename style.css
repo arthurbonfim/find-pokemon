@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #ebdccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.searchBox {
+    margin: 10px auto;
+    width: 220px;
+    height: 32px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.searchBox input {
+    background-color: #fff;
+    height: 30px;
+}
+
+.searchBox button {
+    height: 30px;
+    border-color: #000;
+    background-color: #ffd900 ;
+    width: 25%;
+    border-radius: 10%;
+    margin-left: 5px;
+}
+
+
+
